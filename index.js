@@ -6,7 +6,7 @@ navToggle.addEventListener('click', function() {
 });
 
 navLinks.forEach(link => {
-    link.addEventListener('click',function() {
+    link.addEventListener('click', function() {
         document.body.classList.remove('nav-open');
     })
 })
